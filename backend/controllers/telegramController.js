@@ -29,7 +29,7 @@ exports.handleTelegramWebhook = async (req, res) => {
         text: `Добро пожаловать обратно, ${name}!`,
         reply_markup: {
           inline_keyboard: [
-            [{ text: 'Открыть мини-приложение', web_app: { url: 'https://de44-185-237-97-187.ngrok-free.app' } }]
+            [{ text: 'Открыть мини-приложение', web_app: { url: 'https://45.91.168.197/' } }]
           ]
         }
       });
