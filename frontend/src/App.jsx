@@ -6,7 +6,7 @@ import Home from './pages/Home/Home'
 import My from './pages/My/My'
 import BottomPanel from './components/BottomPanel/bottomPanel'
 import GlobalContext from './context/globalContext'
-import Button from './components/Button/Button'
+import Button from './components/Button/button'
 import Clouse from './assets/icons/clouse'
 import Send from './assets/icons/send';
 import EventManager from './components/EventManager/eventManager';
