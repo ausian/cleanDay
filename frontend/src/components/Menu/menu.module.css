@@ -1,0 +1,28 @@
+.box {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+
+.boxLeft {
+    height: 46px;
+    display: flex;
+    gap: 2px;
+    background: var(--background-menu-color);
+    border-radius: 100px;
+    z-index: 100;
+    margin-bottom: var(--small-gap);
+    padding: 4px 4px;
+}
+
+.boxRight {
+    height: 46px;
+    display: flex;
+    gap: 2px;
+    background: var(--background-menu-color);
+    border-radius: 100px;
+    z-index: 100;
+    margin-bottom: var(--small-gap);
+    padding: 4px 4px;
+}

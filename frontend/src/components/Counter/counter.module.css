@@ -1,0 +1,17 @@
+.box {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+  border: 2px solid var( --border-color);
+}
+
+.numbers {
+  font-family: 'PoiretOne', sans-serif !important;
+  font-weight: 200;
+  color: var(--text-color);
+  font-size: 23px;
+  font-weight: 700;
+}

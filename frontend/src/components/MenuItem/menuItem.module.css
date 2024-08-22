@@ -1,0 +1,26 @@
+.box {
+ width: 46px;
+ height: 46px;
+ display: flex;
+ flex-direction: column;
+
+ justify-content: center;
+ text-decoration: none;
+}
+
+.iconBox {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: var(--full-radius);
+    background: var(--background-menu-color);
+}
+.name {
+    height: 16px;
+    color: var(--text-color);
+    font-size: 12px;
+    text-decoration: none !important;
+}

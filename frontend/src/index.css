@@ -1,0 +1,193 @@
+:root {
+    /* Основные цвета */
+    --primary-color: #000000; /* Основной цвет для кнопок, ссылок и активных элементов */
+    --secondary-color: #6c757d; /* Вторичный цвет для менее важных элементов */
+    --accent-color: #28a745; /* Акцентный цвет для подчеркивания ключевых элементов, например, успешных действий */
+    --background-color: #ffffff; /* Основной цвет фона */
+    --background-menu-color: #000000; /* Основной цвет фона меню */
+    --surface-color: #f8f9fa; /* Цвет поверхностных элементов, таких как карточки или панели */
+    --text-color: #212529; /* Основной цвет текста */
+    --muted-text-color: #6c757d; /* Приглушенный цвет текста для второстепенной информации */
+    --link-color: #007bff; /* Цвет ссылок */
+    --link-hover-color: #0056b3; /* Цвет ссылок при наведении */
+    --icon-button-color: #fff; /* Цвет иконок */
+    --icon-menu-color: #ffffff; /* Цвет иконок меню */
+    
+    /* Цвета для состояний */
+    --success-color: #28a745; /* Цвет для успешных сообщений */
+    --warning-color: #ffc107; /* Цвет для предупреждений */
+    --error-color: #dc3545; /* Цвет для ошибок */
+    --info-color: #17a2b8; /* Цвет для информационных сообщений */
+
+    /* Границы и разделители */
+    --border-color: #000000; /* Цвет границ */
+    --divider-color: #e9ecef; /* Цвет разделителей */
+
+    /* Цвета для теней и подсветок */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Цвет для теней */
+    --highlight-color: rgba(0, 123, 255, 0.1); /* Цвет для подсветки элементов */
+
+     /* Отступы и промежутки */
+    --small-gap: 8px;
+    --medium-gap: 16px;
+    --large-gap: 32px;
+    --extra-large-gap: 64px;
+
+    /* Радиусы */
+    --small-radius: 5px;
+    --medium-radius: 12px;
+    --full-radius: 100%;
+
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../src/assets/fonts/Raleway/Raleway-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'PoiretOne';
+    src: url('../src/assets/fonts/Poiret_One/PoiretOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 16px; /* базовый размер шрифта */
+}
+
+/* Пример использования шрифтов */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; /* Bold */
+    line-height: 2rem;
+    margin: 0;
+}
+

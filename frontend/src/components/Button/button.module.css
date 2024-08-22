@@ -1,0 +1,17 @@
+.box {
+cursor: pointer;
+background: var(--primary-color);
+align-items: center;
+justify-content: center;
+border-radius: var(--full-radius);
+padding: 6px;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+}

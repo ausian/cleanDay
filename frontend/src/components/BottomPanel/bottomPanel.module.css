@@ -1,0 +1,22 @@
+.box {
+  position: absolute;
+  background: var(--background-color);
+  width: calc(100% - 20px);
+  height: 50vh;
+  bottom: 0;
+  z-index: 101;
+  display: flex;
+  gap: var(--small-gap);
+  padding: var(--small-gap);
+  transition: bottom 0.2s ease;
+  border-radius: var(--medium-radius);
+  border: 2px solid var(--border-color);
+}
+
+.boxLeft {
+  display: flex;
+  flex-direction: column;
+  gap: var(--small-gap);
+  width: 100%;
+}
+
