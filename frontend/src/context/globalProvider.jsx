@@ -25,6 +25,7 @@ const GlobalProvider = ({ children }) => {
   // Функция для получения данных пользователя по tg_id
   const fetchUserData = useCallback(async (id) => {
     addLog('Function fetchUserData called with id: ' + JSON.stringify(id));
+    addLog('api: ' + JSON.stringify(apiUrl));
 
     try {
       const response = await axios.get(`${apiUrl}/api/users/${id}`);
