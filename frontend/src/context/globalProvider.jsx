@@ -14,6 +14,7 @@ const GlobalProvider = ({ children }) => {
   const location = useLocation();
 
   const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const testID = import.meta.env.VITE_TEST_ID;
 
 
   // Функция для добавления логов
@@ -62,7 +63,7 @@ const GlobalProvider = ({ children }) => {
         fetchUserData(user.id);
       } else {
         addLog('No user ID found, using fallback ID');
-        fetchUserData('5405635131');
+        fetchUserData(testID);
       }
     } else {
       addLog('Telegram WebApp API is not available');
