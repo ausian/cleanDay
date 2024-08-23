@@ -159,7 +159,8 @@ const LogViewer = ({ logs }) => {
       color: 'white', 
       padding: '10px', 
       fontSize: '12px', 
-      zIndex: 9999 // Добавление zIndex
+      zIndex: 9999,
+      display: 'none'
     }}>
       <h4 style={{ margin: 0 }}>Logs:</h4>
       <pre ref={logRef}>{logs.join('\n')}</pre>
